@@ -36,7 +36,8 @@ Depends:
 Suggests: 
     knitr,
     rmarkdown,
-    pkgdown
+    pkgdown,
+    xaringan
 URL: https://jdrnevich.github.io/BuildACarpentriesWorkshop/
 BugReports: https://github.com/jdrnevich/BuildACarpentriesWorkshop/issues/new/choose
 VignetteBuilder: knitr
