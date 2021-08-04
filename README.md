@@ -4,7 +4,11 @@ The Bioconductor teaching committee was established in early 2020, and one of it
 
 ## Vignettes
 
-[Syllabus](https://jdrnevich.github.io/BuildACarpentriesWorkshop/articles/CarpentriesWorkshopSyllabus.html)
+[Building Carpentries-based Bioconductor Lessons](https://jdrnevich.github.io/BuildACarpentriesWorkshop/articles/CarpentriesWorkshopSyllabus.html)
+
+[Carpentries Guiding Principles](https://jdrnevich.github.io/BuildACarpentriesWorkshop/articles/CarpentrieGuidingPrinciples.html)
+
+[Contribution Guide](https://jdrnevich.github.io/BuildACarpentriesWorkshop/articles/ContributionGuide.html)
 
 ## Carpentries Incubator 
 

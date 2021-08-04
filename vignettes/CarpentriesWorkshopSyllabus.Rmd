@@ -57,18 +57,20 @@ Background reading:
 
 Attendees are interested in learning about the Carpentries' guiding principles on the science of learning and how to apply them in their own teaching. They will review existing workshop material from the Bioconductor teaching committee and participate in a "lesson sprint": contribute ideas, suggestions for improvement, evaluation tests, etc. They will also have the opportunity to suggest other lessons and network with others to hopefully form groups to develop these lessons in the future. 
 
-### _R_ / _Bioconductor_ packages used
+### Code of Conduct
 
-ggplot2, 
+We will follow the [Bioc2021 Code of Conduct](https://bioc2021.bioconductor.org/code/) and aim to provide a supportive, collegial, and harassment-free environment. If someone makes you or anyone else feel unsafe or unwelcome, please report it as soon as possible using any of the avenues listed in the link above. 
+
 
 ### Time outline
 
 | Activity                     | Time |
 |------------------------------|------|
+| Introduction | 5m |
 | Carpentries guiding principles | 20m  |
-| Overview of workshops in development          | 20m  |
-| Lesson sprint | 50m   |
-| Future lesson planning               | 20m  |
+| Overview of workshops in development          | 10m  |
+| Lesson sprint | 45m   |
+| Future lesson planning               | 10m  |
 
 ### Workshop goals and objectives
 
@@ -101,11 +103,10 @@ ggplot2,
 
 https://github.com/Bioconductor/bioconductor-teaching
 
-#### An introduction to R
+#### [Introduction to data analyis with R and Bioconductor](https://carpentries-incubator.github.io/bioc-intro/)
 
 Target audience: At least a mid-level Bachelor student with basic biology knowledge. They have or will have some type of -omic data they will need to analyze and visualize but possibly no prior experience in programming or data analysis.  
 
-Data set: subset of [BachMammaryData](https://github.com/Bioconductor/bioconductor-teaching/tree/master/data/BachMammaryData)
 
 Learning objectives:
 
@@ -114,18 +115,13 @@ Learning objectives:
 * Import data into R and put in a proper object class
 * Produce visual summaries of the data
 
-Introduction to R curricula:
-Lesson: Data organization and management
-Lesson: Data import and cleaning
-Lesson: Data manipulation and visualization
 
 
 
-#### Overview of the Bioconductor project
+#### [Overview of the Bioconductor project](https://carpentries-incubator.github.io/bioc-project/)
 
 Target audience: At least a mid-level Bachelor student with basic biology knowledge. They have or will have some type of -omic data they will need to analyze and visualize, and have the obtained the learning objectives of the Introduction to R workshop. They want to learn how to do the analysis themselves but do not know how to start or what software packages are available. 
 
-Data set:  ?
 
 Learning objectives: 
 
@@ -133,14 +129,13 @@ Learning objectives:
 * Install specific Bioconductor packages in R
 * Open a package vignette a practice running through the example
 * Name the different types of Bioconductor S4 object types and what kind of data they hold.
-* Modify code 
+* How to modify code and contribute to existing Bioconductor packages. 
 
 
 
-#### Bulk RNA-seq analysis
+#### [RNA-seq analysis with Bioconductor](https://carpentries-incubator.github.io/bioc-rnaseq)
 
 Target audience: At least a graduate student basic biology knowledge. They have or will have bulk RNA-Seq count data they need to analyze and visualize. They are already familiar with R, RStudio and Bioconductor. 
 
-Data set: ?
 
 Learning objectives: 
