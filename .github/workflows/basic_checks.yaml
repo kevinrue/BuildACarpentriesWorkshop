@@ -68,7 +68,7 @@ jobs:
       - name: Copy slides
         run: |
           mkdir -p docs/slides
-          cp slides/DesigningWritingExercises.html docs/slides/DesigningWritingExercises.html
+          cp slides/DesigningWritingExercises.html slides/DesigningWritingExercises_files docs/slides/*
           
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@releases/v3
