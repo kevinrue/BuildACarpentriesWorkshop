@@ -54,7 +54,13 @@
   </a>
   <ul class="dropdown-menu" role="menu">
 <li>
+      <a href="../articles/CarpentrieGuidingPrinciples.html">Carpentries Guiding Principles</a>
+    </li>
+    <li>
       <a href="../articles/CarpentriesWorkshopSyllabus.html">Building Carpentries-based Bioconductor Lessons</a>
+    </li>
+    <li>
+      <a href="../articles/ContributionGuide.html">Contribution Guide</a>
     </li>
   </ul>
 </li>
@@ -89,7 +95,7 @@
 
     
     
-<p>Authors: Jenny Drnevich<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a>, Charlotte Soneson<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a>, Toby Hodges<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a>, Laurent Gatto<a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a>. <br> Last modified: 2021-06-28.</p>
+<p>Authors: Jenny Drnevich<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a>, Charlotte Soneson<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a>, Toby Hodges<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a>, Laurent Gatto<a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a>, Keven Rue-Albrecht<a href="#fn5" class="footnote-ref" id="fnref5"><sup>5</sup></a>, Robert Castelo<a href="#fn6" class="footnote-ref" id="fnref6"><sup>6</sup></a>. <br> Last modified: 2021-08-04.</p>
 <div id="overview" class="section level2">
 <h2 class="hasAnchor">
 <a href="#overview" class="anchor"></a>Overview</h2>
@@ -129,10 +135,10 @@
 <a href="#participation" class="anchor"></a>Participation</h3>
 <p>Attendees are interested in learning about the Carpentries’ guiding principles on the science of learning and how to apply them in their own teaching. They will review existing workshop material from the Bioconductor teaching committee and participate in a “lesson sprint”: contribute ideas, suggestions for improvement, evaluation tests, etc. They will also have the opportunity to suggest other lessons and network with others to hopefully form groups to develop these lessons in the future.</p>
 </div>
-<div id="r-bioconductor-packages-used" class="section level3">
+<div id="code-of-conduct" class="section level3">
 <h3 class="hasAnchor">
-<a href="#r-bioconductor-packages-used" class="anchor"></a><em>R</em> / <em>Bioconductor</em> packages used</h3>
-<p>ggplot2,</p>
+<a href="#code-of-conduct" class="anchor"></a>Code of Conduct</h3>
+<p>We will follow the <a href="https://bioc2021.bioconductor.org/code/">Bioc2021 Code of Conduct</a> and aim to provide a supportive, collegial, and harassment-free environment. If someone makes you or anyone else feel unsafe or unwelcome, please report it as soon as possible using any of the avenues listed in the link above.</p>
 </div>
 <div id="time-outline" class="section level3">
 <h3 class="hasAnchor">
@@ -144,20 +150,24 @@
 </tr></thead>
 <tbody>
 <tr class="odd">
+<td>Introduction</td>
+<td>5m</td>
+</tr>
+<tr class="even">
 <td>Carpentries guiding principles</td>
 <td>20m</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Overview of workshops in development</td>
-<td>20m</td>
+<td>10m</td>
+</tr>
+<tr class="even">
+<td>Lesson sprint</td>
+<td>45m</td>
 </tr>
 <tr class="odd">
-<td>Lesson sprint</td>
-<td>50m</td>
-</tr>
-<tr class="even">
 <td>Future lesson planning</td>
-<td>20m</td>
+<td>10m</td>
 </tr>
 </tbody>
 </table>
@@ -198,11 +208,11 @@
 <h3 class="hasAnchor">
 <a href="#overview-of-workshops-in-development" class="anchor"></a>Overview of workshops in development</h3>
 <p><a href="https://github.com/Bioconductor/bioconductor-teaching" class="uri">https://github.com/Bioconductor/bioconductor-teaching</a></p>
-<div id="an-introduction-to-r" class="section level4">
+<div id="introduction-to-data-analyis-with-r-and-bioconductor" class="section level4">
 <h4 class="hasAnchor">
-<a href="#an-introduction-to-r" class="anchor"></a>An introduction to R</h4>
+<a href="#introduction-to-data-analyis-with-r-and-bioconductor" class="anchor"></a><a href="https://carpentries-incubator.github.io/bioc-intro/">Introduction to data analyis with R and Bioconductor</a>
+</h4>
 <p>Target audience: At least a mid-level Bachelor student with basic biology knowledge. They have or will have some type of -omic data they will need to analyze and visualize but possibly no prior experience in programming or data analysis.</p>
-<p>Data set: subset of <a href="https://github.com/Bioconductor/bioconductor-teaching/tree/master/data/BachMammaryData">BachMammaryData</a></p>
 <p>Learning objectives:</p>
 <ul>
 <li>Be able to organize data in a spreadsheet in a manner conducive to reading into R</li>
@@ -210,27 +220,26 @@
 <li>Import data into R and put in a proper object class</li>
 <li>Produce visual summaries of the data</li>
 </ul>
-<p>Introduction to R curricula: Lesson: Data organization and management Lesson: Data import and cleaning Lesson: Data manipulation and visualization</p>
 </div>
 <div id="overview-of-the-bioconductor-project" class="section level4">
 <h4 class="hasAnchor">
-<a href="#overview-of-the-bioconductor-project" class="anchor"></a>Overview of the Bioconductor project</h4>
+<a href="#overview-of-the-bioconductor-project" class="anchor"></a><a href="https://carpentries-incubator.github.io/bioc-project/">Overview of the Bioconductor project</a>
+</h4>
 <p>Target audience: At least a mid-level Bachelor student with basic biology knowledge. They have or will have some type of -omic data they will need to analyze and visualize, and have the obtained the learning objectives of the Introduction to R workshop. They want to learn how to do the analysis themselves but do not know how to start or what software packages are available.</p>
-<p>Data set: ?</p>
 <p>Learning objectives:</p>
 <ul>
 <li>Navigate the Bioconductor website and learn to how to find packages for particular types of -omics data</li>
 <li>Install specific Bioconductor packages in R</li>
 <li>Open a package vignette a practice running through the example</li>
 <li>Name the different types of Bioconductor S4 object types and what kind of data they hold.</li>
-<li>Modify code</li>
+<li>How to modify code and contribute to existing Bioconductor packages.</li>
 </ul>
 </div>
-<div id="bulk-rna-seq-analysis" class="section level4">
+<div id="rna-seq-analysis-with-bioconductor" class="section level4">
 <h4 class="hasAnchor">
-<a href="#bulk-rna-seq-analysis" class="anchor"></a>Bulk RNA-seq analysis</h4>
+<a href="#rna-seq-analysis-with-bioconductor" class="anchor"></a><a href="https://carpentries-incubator.github.io/bioc-rnaseq">RNA-seq analysis with Bioconductor</a>
+</h4>
 <p>Target audience: At least a graduate student basic biology knowledge. They have or will have bulk RNA-Seq count data they need to analyze and visualize. They are already familiar with R, RStudio and Bioconductor.</p>
-<p>Data set: ?</p>
 <p>Learning objectives:</p>
 </div>
 </div>
@@ -242,6 +251,8 @@
 <li id="fn2"><p><a href="mailto:charlotte.soneson@fmi.ch" class="email">charlotte.soneson@fmi.ch</a><a href="#fnref2" class="footnote-back">↩︎</a></p></li>
 <li id="fn3"><p><a href="mailto:tobyhodges@carpentries.org" class="email">tobyhodges@carpentries.org</a><a href="#fnref3" class="footnote-back">↩︎</a></p></li>
 <li id="fn4"><p><a href="mailto:laurent.gatto@uclouvain.be" class="email">laurent.gatto@uclouvain.be</a><a href="#fnref4" class="footnote-back">↩︎</a></p></li>
+<li id="fn5"><p><a href="mailto:kevin.rue-albrecht@kennedy.ox.ac.uk" class="email">kevin.rue-albrecht@kennedy.ox.ac.uk</a><a href="#fnref5" class="footnote-back">↩︎</a></p></li>
+<li id="fn6"><p><a href="mailto:robert.castelo@upf.edu" class="email">robert.castelo@upf.edu</a><a href="#fnref6" class="footnote-back">↩︎</a></p></li>
 </ol>
 </div>
   </div>

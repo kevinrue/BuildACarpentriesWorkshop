@@ -2,8 +2,10 @@ pandoc: 2.11.4
 pkgdown: 1.6.1
 pkgdown_sha: ~
 articles:
+  CarpentrieGuidingPrinciples: CarpentrieGuidingPrinciples.html
   CarpentriesWorkshopSyllabus: CarpentriesWorkshopSyllabus.html
-last_built: 2021-06-28T15:03Z
+  ContributionGuide: ContributionGuide.html
+last_built: 2021-08-04T09:36Z
 urls:
   reference: https://jdrnevich.github.io/BuildACarpentriesWorkshop//reference
   article: https://jdrnevich.github.io/BuildACarpentriesWorkshop//articles
