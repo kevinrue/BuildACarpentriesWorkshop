@@ -60,6 +60,11 @@ jobs:
           apt-get update
           apt-get -y install rsync
 
+      - name: Copy slides
+        run: |
+          mkdir -p docs/slides
+          cp slides/DesigningWritingExercises.html docs/slides/DesigningWritingExercises.html
+          
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
