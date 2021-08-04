@@ -2,7 +2,7 @@
 title: "Building Carpentries-based Bioconductor Lessons"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{An Example Workshop}
+  %\VignetteIndexEntry{WorkshopSyllabus}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
