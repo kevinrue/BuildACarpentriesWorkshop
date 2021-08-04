@@ -1,0 +1,29 @@
+---
+title: "Carpentries Guiding Principles"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{An Example Workshop}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+
+Authors:
+    Toby Hodges^[tobyhodges@carpentries.org],
+    Jenny Drnevich^[drnevich@illinois.edu],
+    <br/>
+Last modified: `r Sys.Date()`.
+
+## Carpentries guiding principles
+
+[Link to download slides](https://uofi.box.com/shared/static/bfohy4qwyw9gb6t5p1h3pvlf8v6pndlc.html)
+
+

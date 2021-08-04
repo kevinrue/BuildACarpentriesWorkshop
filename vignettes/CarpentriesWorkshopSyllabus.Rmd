@@ -20,7 +20,9 @@ Authors:
     Jenny Drnevich^[drnevich@illinois.edu],
     Charlotte Soneson^[charlotte.soneson@fmi.ch],
     Toby Hodges^[tobyhodges@carpentries.org],
-    Laurent Gatto^[laurent.gatto@uclouvain.be].
+    Laurent Gatto^[laurent.gatto@uclouvain.be],
+    Keven Rue-Albrecht^[kevin.rue-albrecht@kennedy.ox.ac.uk],
+    Robert Castelo^[robert.castelo@upf.edu].
     <br/>
 Last modified: `r Sys.Date()`.
 
